@@ -1,8 +1,10 @@
 package com.nitesh.orderhere.merchant.model;
 
+import com.nitesh.orderhere.item.model.Item;
 import com.nitesh.orderhere.user.model.User;
 
 import javax.persistence.*;
+import java.util.List;
 
 @Entity
 @Table(name="merchants")
@@ -31,6 +33,9 @@ public class Merchant {
     @OneToOne
     @JoinColumn(name="UserId")
     private User user;
+
+    @OneToMany(mappedBy = "merchant", cascade = CascadeType.ALL)
+    private List<Item> items;
 
     public int getMerchantId() {
         return merchantId;
@@ -86,5 +91,13 @@ public class Merchant {
 
     public void setUser(User user) {
         this.user = user;
+    }
+
+    public List<Item> getItems() {
+        return items;
+    }
+
+    public void setItems(List<Item> items) {
+        this.items = items;
     }
 }

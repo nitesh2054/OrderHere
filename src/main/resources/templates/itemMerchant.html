@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <meta charset="UTF-8">
+    <title>All Items</title>
+</head>
+<body>
+    <h1>All Item Information</h1>
+    <table align="center" border="1">
+        <thead>
+            <th>S.N.</th>
+            <th>Item Name</th>
+            <th>Selling Unit</th>
+            <th>Measurement Unit</th>
+            <th>Number of MU in SU</th>
+            <th>Total Price</th>
+            <th>Available Number</th>
+            <th>Created Date</th>
+            <th>Updated Date</th>
+        </thead>
+
+        <tbody>
+            <tr th:if="${items.isEmpty()}">
+                <td colspan="8"> No items available</td>
+            </tr>
+            <tr th:each="item, iter: ${items}">
+                <td><span th:text="${iter.count}"></span></td>
+                <td><span th:text="${item.itemName}">Item Name</span></td>
+                <td><span th:text="${item.sellingItemUnit}">Selling Unit</span></td>
+                <td><span th:text="${item.measurementUnitOfItem}">Measurement Unit</span></td>
+                <td><span th:text="${item.sellingItemUnitEqualsInSingleNumber}">Number of MU in SU</span></td>
+                <td><span th:text="${item.itemTotalPrice}">Total Price</span></td>
+                <td><span th:text="${item.availableNumber}">Available Number</span></td>
+                <td><span th:text="${item.createdDate}">Created Date</span></td>
+                <td><span th:text="${item.updatedDate}">Updated Date</span></td>
+            </tr>
+            </div>
+        </tbody>
+    </table>
+</body>
+</html>

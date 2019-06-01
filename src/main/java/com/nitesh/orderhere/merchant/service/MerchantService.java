@@ -25,9 +25,15 @@ public class MerchantService {
         userRole.setUserRole("MERCHANT");
 
         user.getUserRole().add(userRole);
-
+        userRole.setUser(user);
         userService.saveUser(user);
 
         return this.merchantRepository.save(merchant);
     }
+
+    public Merchant findByUser(User user){
+        return this.merchantRepository.findByUser(user);
+    }
+
+
 }

@@ -1,5 +1,6 @@
 package com.nitesh.orderhere.user.service;
 
+import com.nitesh.orderhere.security.IAuthenticationFascade;
 import com.nitesh.orderhere.user.model.User;
 import com.nitesh.orderhere.user.model.UserAccount;
 import com.nitesh.orderhere.user.model.UserRole;
@@ -27,6 +28,11 @@ public class UserService {
     @Autowired
     private PasswordEncoder passwordEncoder;
 
+    @Autowired
+    private IAuthenticationFascade authenticationFascade;
+
+    private UserAccountService userAccountService;
+
     public User saveUser(String name, String address, String phoneNo, String email, String username, String password, String role){
 
         //saving user
@@ -42,6 +48,7 @@ public class UserService {
             userRole.setUserRole("USER");
         }
         user.getUserRole().add(userRole);
+        userRole.setUser(user);
 
         User savedUser=userRepository.save(user);
 
@@ -61,5 +68,7 @@ public class UserService {
     public User saveUser(User user){
         return this.userRepository.save(user);
     }
+
+
 
 }

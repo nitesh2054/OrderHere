@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+<head>
+    <meta charset="UTF-8">
+    <title>Add new Item</title>
+</head>
+<body>
+    <h1>Info About Item</h1>
+    <form th:action="@{/merchant/item}" th:object="${itemObject}" method="post">
+        <div><label>Item Name <input type="text" name="itemName"></label></div>
+        <div><label>Selling Unit <input type="text" name="sellingItemUnit"></label></div>
+        <div><label>Measurement Unit of Item<input type="text" name="measurementUnitOfItem"></label></div>
+        <div><label>Selling Unit=? Number In Measurement unit<input type="text" name="sellingItemUnitEqualsInSingleNumber"></label></div>
+        <div><label>Total Price Of Selling Unit <input type="text" name="itemTotalPrice"></label></div>
+        <div><label>Available Number(in Selling Unit) <input type="text" name="availableNumber"></label></div>
+        <div><label><input type="submit" value="Add"></label></div>
+    </form>
+</body>
+</html>

@@ -42,7 +42,7 @@ public class CustomUserDetailService implements UserDetailsService {
 
         User user = this.userService.findById(userAccount.getUserId());
 
-        List<UserRole> userRoles=user.getUserRole();
+        List<UserRole> userRoles=  this.userRoleService.findUserRoleByUser(user);
 
         for (UserRole userRole: userRoles) {
             authorities.add(new SimpleGrantedAuthority(userRole.getUserRole()));

@@ -15,6 +15,10 @@ public class UserRole {
     @Column(name = "UserRole")
     private String userRole;
 
+    @ManyToOne
+    @JoinColumn(name = "UserId")
+    private User user;
+
     public UserRole() {
     }
 
@@ -34,4 +38,11 @@ public class UserRole {
         this.userRole = userRole;
     }
 
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
+    }
 }

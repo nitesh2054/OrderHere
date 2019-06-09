@@ -1,9 +1,10 @@
 package com.nitesh.orderhere.user.service;
 
-import com.nitesh.orderhere.security.IAuthenticationFascade;
+import com.nitesh.orderhere.user.model.Address;
 import com.nitesh.orderhere.user.model.User;
 import com.nitesh.orderhere.user.model.UserAccount;
 import com.nitesh.orderhere.user.model.UserRole;
+import com.nitesh.orderhere.user.repository.UserAddressRepository;
 import com.nitesh.orderhere.user.repository.UserAccountRepository;
 import com.nitesh.orderhere.user.repository.UserRepository;
 import com.nitesh.orderhere.user.repository.UserRoleRepository;
@@ -20,25 +21,20 @@ public class UserService {
     private UserRepository userRepository;
 
     @Autowired
-    private UserAccountRepository userAccountRepository;
-
-    @Autowired
-    private UserRoleRepository userRoleRepository;
-
-    @Autowired
     private PasswordEncoder passwordEncoder;
 
     @Autowired
-    private IAuthenticationFascade authenticationFascade;
+    private UserAddressService userAddressService;
 
+    @Autowired
     private UserAccountService userAccountService;
 
-    public User saveUser(String name, String address, String phoneNo, String email, String username, String password, String role){
+    public User saveUser(String name,String country, String state,String district, String municipality, String city,
+                         String phoneNo, String email, String username, String password, String role){
 
         //saving user
         User user = new User();
         user.setName(name);
-        user.setAddress(address);
         user.setPhoneNo(phoneNo);
         user.setEmail(email);
 
@@ -56,8 +52,17 @@ public class UserService {
         userAccount.setUser(savedUser);
         userAccount.setUserName(username);
         userAccount.setPassword(passwordEncoder.encode(password));
-        userAccountRepository.save(userAccount);
+        userAccountService.saveUserAccount(userAccount);
 
+
+        Address address = new Address();
+        address.setUser(savedUser);
+        address.setCountry(country);
+        address.setState(state);
+        address.setMunicipality(municipality);
+        address.setDistrict(district);
+        address.setCity(city);
+        userAddressService.saveAddress(address);
         return savedUser;
     }
 
@@ -69,6 +74,8 @@ public class UserService {
         return this.userRepository.save(user);
     }
 
-
-
+    public User findByUserName(String userName) {
+        UserAccount userAccount=userAccountService.findByUsername(userName);
+        return this.userRepository.findById(userAccount.getUserId()).get();
+    }
 }

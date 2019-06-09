@@ -1,7 +1,7 @@
 package com.nitesh.orderhere.user.model;
 
 
-import com.nitesh.orderhere.merchant.model.Merchant;
+import com.nitesh.orderhere.company.model.Company;
 
 import javax.persistence.*;
 import java.util.List;
@@ -17,9 +17,6 @@ public class User {
     @Column(name = "FullName")
     private String name;
 
-    @Column(name="Address")
-    private String address;
-
     @Column(name = "PhoneNo")
     private String phoneNo;
 
@@ -30,7 +27,11 @@ public class User {
     private List<UserRole> userRole;
 
     @OneToOne(mappedBy = "user")
-    private Merchant merchant;
+    private Company company;
+
+    @OneToOne(mappedBy = "user", cascade = CascadeType.ALL)
+    private UserAccount userAccount;
+
 
     public User() {
 
@@ -50,14 +51,6 @@ public class User {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
     }
 
     public String getPhoneNo() {
@@ -84,11 +77,19 @@ public class User {
         this.userRole = userRole;
     }
 
-    public Merchant getMerchant() {
-        return merchant;
+    public Company getCompany() {
+        return company;
     }
 
-    public void setMerchant(Merchant merchant) {
-        this.merchant = merchant;
+    public void setCompany(Company company) {
+        this.company = company;
+    }
+
+    public UserAccount getUserAccount() {
+        return userAccount;
+    }
+
+    public void setUserAccount(UserAccount userAccount) {
+        this.userAccount = userAccount;
     }
 }

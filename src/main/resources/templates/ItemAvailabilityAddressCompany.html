@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Item Availability</title>
+</head>
+<body>
+    <h1>Item Availability On this Address</h1>
+
+    <table border="1">
+        <thead>
+        <th>S.N.</th>
+        <th>ItemName</th>
+        <th>Availability</th>
+        </thead>
+
+        <tbody>
+        <tr th:if="${availableItems.isEmpty()}">
+            <td colspan="8"> No Items available</td>
+        </tr>
+        <tr th:each="availableItem, iter: ${availableItems}">
+            <td><span th:text="${iter.count}"></span></td>
+            <td><span th:text="${availableItem[2]}">Country</span></td>
+            <td><span th:text="${availableItem[1]}">State Num.</span></td>
+<!--
+            <td><a th:href="@{/company/items/address/{id}(id=${address.companyAddressId})}">See Here</a></td>
+-->
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>

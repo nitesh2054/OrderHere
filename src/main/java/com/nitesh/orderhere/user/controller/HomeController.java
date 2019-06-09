@@ -33,7 +33,7 @@ public class HomeController {
         for (GrantedAuthority authority:
                 authorities) {
             if( authority.getAuthority().equals("MERCHANT")){
-                return new ModelAndView("redirect:/merchant/home");
+                return new ModelAndView("redirect:/company/home");
             }
         }
 

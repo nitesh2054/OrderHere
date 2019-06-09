@@ -1,28 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42480dae-28ac-45ba-b68b-11a5ab5e3fdc" name="Default Changelist" comment="D">
+    <list default="true" id="c5bf4386-e362-4c40-aacf-fc7393bfe17f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/company/controller/CompanyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/company/repository/CompanyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/company/service/CompanyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jdk8_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_parameter_names_2_9_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_zaxxer_HikariCP_3_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_transaction_javax_transaction_api_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_2_0_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_16.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_9_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_websocket_9_0_19.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_10_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_6_0_16_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_2_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_2_23_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_test_2_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_thymeleaf_2_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_tomcat_2_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_web_2_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_1_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_test_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_1_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_7_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring5_3_0_11_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_6_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_23.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/MvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/OrderHereApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/OrderHereApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/merchant/controller/MerchantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/merchant/controller/MerchantController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/merchant/model/Merchant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/merchant/model/Merchant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/merchant/repository/MerchantRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/merchant/repository/MerchantRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/merchant/service/MerchantService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/merchant/service/MerchantService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/model/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/repository/ItemRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/repository/ItemRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/merchant/controller/MerchantController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/merchant/model/Merchant.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/company/model/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/merchant/repository/MerchantRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/merchant/service/MerchantService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/security/CustomUserDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/security/CustomUserDetailService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/security/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/controller/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/model/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/model/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/repository/UserAccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/repository/UserAccountRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/repository/UserRoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/repository/UserRoleRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/service/UserAccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/service/UserAccountService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/service/UserRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/service/UserRoleService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hello.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/merchantdetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/merchantdetails.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/addItem.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/addItem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/homeMerchant.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/homeCompany.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/itemMerchant.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/itemsCompany.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/merchantdetails.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/detailsCompany.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/signup.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,55 +134,57 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="OrderHere" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/itemMerchant.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/model/Item.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            <state relative-caret-position="195">
+              <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/signup.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/company/model/CompanyAddress.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="17" column="61" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="61" />
+            <state relative-caret-position="-14">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addItem.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/service/AvailableItemOnAddressService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/hello.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="75" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="3" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/controller/HomeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="225">
+              <caret line="34" column="82" selection-start-line="34" selection-start-column="82" selection-end-line="34" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,10 +193,23 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/controller/UserController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/service/ItemService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="180">
+              <caret line="56" column="56" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
+              <folding>
+                <element signature="e#2817#2818#0" expanded="true" />
+                <element signature="e#2881#2882#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/company/service/CompanyAddressService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -101,14 +218,57 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/model/Item.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/company/model/Company.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-435">
-              <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
+            <state relative-caret-position="-405">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="e#929#930#0" expanded="true" />
+                <element signature="e#961#962#0" expanded="true" />
+                <element signature="e#1008#1009#0" expanded="true" />
+                <element signature="e#1050#1051#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/controller/ItemController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/company/controller/CompanyController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/company/controller/CompanyAddressController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1750#1751#0" expanded="true" />
-                <element signature="e#1804#1805#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/company/service/CompanyService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-end-line="42" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,8 +280,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -131,69 +291,59 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/home.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/model/UsersRoles.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/model/UserAccount.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/service/UserAccountService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/repository/UserAccountRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/hello.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/security/IAuthenticationFascade.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/security/AuthenticationFascade.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/HomeMerchant.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/merchant/model/Merchant.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/signup.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/merchantdetails.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/MvcConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/homeUser.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/security/WebSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/security/MySimpleUrlAuthenticationSuccessHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/security/CustomUserDetailService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/service/UserRoleService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/repository/UserRoleRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/merchant/controller/MerchantController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/addItem.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/model/UserRole.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/service/UserAddressService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/merchant/service/MerchantService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/merchant/repository/MerchantRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/OrderHereApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/controller/HomeController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/merchant/repository/CompanyRepository.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/merchant/model/Companies.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/companydetails.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/model/Address.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/merchant/model/Company.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/merchant/model/CompanyAddress.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/homeMerchant.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/repository/ItemRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/service/ItemService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/merchant/controller/MerchantController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/merchant/controller/CompanyAddressController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/merchant/controller/CompanyController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/merchant/service/CompanyService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/addItem.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/homeCompany.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/itemsCompany.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/repository/ItemIdName.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/model/ItemIdNameAndAvailability.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/detailsCompany.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/security/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/company/controller/CompanyController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/service/UserAccountService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/repository/UserAccountRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/company/model/Company.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/service/UserRoleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/company/repository/CompanyRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/company/repository/CompanyAddressRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/MvcConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/addressInfoCompany.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/addressesCompany.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/company/controller/CompanyAddressController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/security/CustomUserDetailService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/repository/UserRoleRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/model/AvailableItemAndItemName.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/controller/ItemController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/ItemAvailabilityAddressCompany.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/repository/AvailableItemOnAddressRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/company/model/CompanyAddress.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/service/AvailableItemOnAddressService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/repository/ItemRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/model/Item.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/itemMerchant.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/model/AvailableItemOnCompanyAddress.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/company/service/CompanyAddressService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/company/service/CompanyService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/service/ItemService.java" />
       </list>
     </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="OrderHere" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="OrderHere" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="OrderHere" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-          <item name="org.springframework.boot:spring-boot-starter-data-jpa:2.1.5.RELEASE" type="c0821a7e:MavenProjectsStructure$DependencyNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="63" />
@@ -201,41 +351,40 @@
     <option name="width" value="1174" />
     <option name="height" value="636" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="OrderHere" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orderhere" type="b2602c69:ProjectViewProjectNode" />
               <item name="OrderHere" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OrderHere" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orderhere" type="b2602c69:ProjectViewProjectNode" />
               <item name="OrderHere" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OrderHere" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orderhere" type="b2602c69:ProjectViewProjectNode" />
               <item name="OrderHere" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OrderHere" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orderhere" type="b2602c69:ProjectViewProjectNode" />
               <item name="OrderHere" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OrderHere" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orderhere" type="b2602c69:ProjectViewProjectNode" />
               <item name="OrderHere" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -243,7 +392,26 @@
               <item name="orderhere" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OrderHere" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orderhere" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrderHere" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="orderhere" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="orderhere" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrderHere" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="orderhere" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="orderhere" type="b2602c69:ProjectViewProjectNode" />
               <item name="OrderHere" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -252,33 +420,44 @@
               <item name="item" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OrderHere" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orderhere" type="b2602c69:ProjectViewProjectNode" />
               <item name="OrderHere" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="orderhere" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OrderHere" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OrderHere" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="orderhere" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="item" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OrderHere" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orderhere" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrderHere" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="orderhere" type="462c0819:PsiDirectoryNode" />
+              <item name="item" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="orderhere" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OrderHere" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="orderhere" type="462c0819:PsiDirectoryNode" />
+              <item name="item" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="orderhere" type="b2602c69:ProjectViewProjectNode" />
               <item name="OrderHere" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="OrderHere" type="b2602c69:ProjectViewProjectNode" />
+              <item name="orderhere" type="b2602c69:ProjectViewProjectNode" />
               <item name="OrderHere" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
@@ -289,8 +468,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -307,9 +484,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -325,7 +500,7 @@
   </component>
   <component name="RunManager">
     <configuration name="OrderHereApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="OrderHere" />
+      <module name="orderhere" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.nitesh.orderhere.OrderHereApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -337,125 +512,96 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="42480dae-28ac-45ba-b68b-11a5ab5e3fdc" name="Default Changelist" comment="" />
-      <created>1558786155338</created>
+      <changelist id="c5bf4386-e362-4c40-aacf-fc7393bfe17f" name="Default Changelist" comment="" />
+      <created>1559472189299</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1558786155338</updated>
-      <workItem from="1558786163636" duration="1583000" />
-      <workItem from="1558788391689" duration="3603000" />
-      <workItem from="1558793653582" duration="8000" />
-      <workItem from="1558793920558" duration="280000" />
-      <workItem from="1558803729339" duration="1018000" />
-      <workItem from="1558834814613" duration="31486000" />
-      <workItem from="1558899878183" duration="214000" />
-      <workItem from="1558926046357" duration="3091000" />
-      <workItem from="1558934788450" duration="1791000" />
-      <workItem from="1558948740478" duration="3240000" />
-      <workItem from="1558952013374" duration="4238000" />
-      <workItem from="1558968625645" duration="1652000" />
-      <workItem from="1559029487765" duration="12056000" />
-      <workItem from="1559043362808" duration="615000" />
-      <workItem from="1559064515466" duration="1759000" />
-      <workItem from="1559202340734" duration="7006000" />
-      <workItem from="1559270485920" duration="29384000" />
-      <workItem from="1559363044744" duration="20631000" />
+      <updated>1559472189299</updated>
+      <workItem from="1559472194060" duration="3092000" />
+      <workItem from="1559548896394" duration="597000" />
+      <workItem from="1559559697646" duration="1521000" />
+      <workItem from="1559662520372" duration="5730000" />
+      <workItem from="1559725882951" duration="1557000" />
+      <workItem from="1559727599046" duration="8027000" />
+      <workItem from="1559748608254" duration="3608000" />
+      <workItem from="1559752716083" duration="7617000" />
+      <workItem from="1559884594005" duration="23503000" />
+      <workItem from="1559966046833" duration="38115000" />
+      <workItem from="1560048531846" duration="8080000" />
     </task>
-    <task id="LOCAL-00001" summary="simple database authentication">
-      <created>1558969032119</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1558969032119</updated>
-    </task>
-    <task id="LOCAL-00002" summary="merchant database authentication">
-      <created>1559065888602</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1559065888602</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123655000" />
-  </component>
-  <component name="TodoView" selected-index="1">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="101447000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="53" y="25" width="1313" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4886076" visible="true" weight="0.29518548" />
+      <window_info content_ui="combo" id="Project" order="0" side_tool="true" visible="true" weight="0.3385951" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5113924" side_tool="true" weight="0.24230465" />
-      <window_info id="Web" order="7" sideWeight="0.51341" side_tool="true" weight="0.24230465" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35667753" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32899022" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32899022" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32792208" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32899022" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Problems" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.55958956" />
+      <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32991317" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4886076" visible="true" weight="0.29518548" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33307025" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.5113924" side_tool="true" weight="0.24230465" />
-      <window_info id="Web" order="7" sideWeight="0.51341" side_tool="true" weight="0.24230465" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35667753" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3990228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32954547" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32899022" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32899022" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.32792208" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32899022" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Problems" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.55958956" />
+      <window_info anchor="right" id="Maven" order="3" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
@@ -467,325 +613,359 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="simple database authentication" />
-    <MESSAGE value="merchant database authentication" />
-    <option name="LAST_COMMIT_MESSAGE" value="merchant database authentication" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/OrderHereApplication.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/security/AuthenticationFascade.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <caret line="10" column="67" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/home.html" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.7.RELEASE/spring-webmvc-5.1.7.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="43" column="5" selection-start-line="42" selection-start-column="3" selection-end-line="43" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/security/SecurityConfiguration.java" />
-    <entry file="file://$PROJECT_DIR$/OrderHere.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/repository/UserAccountRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.5.RELEASE/spring-security-config-5.1.5.RELEASE.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="92" column="5" lean-forward="true" selection-start-line="90" selection-start-column="4" selection-end-line="92" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="45" selection-start-column="45" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/merchant/model.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/3.0.11.RELEASE/thymeleaf-3.0.11.RELEASE.jar!/org/thymeleaf/templateparser/markup/AbstractMarkupTemplateParser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="116" selection-start-line="116" selection-end-line="116" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/core/context/SecurityContextHolderStrategy.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/security/IAuthenticationFascade.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/core/context/SecurityContext.class">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/controller/HomeController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="235">
+          <caret line="39" column="47" selection-start-line="39" selection-start-column="43" selection-end-line="39" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/core/context/SecurityContextHolder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.5.RELEASE/spring-security-core-5.1.5.RELEASE.jar!/org/springframework/security/core/Authentication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jrt:///usr/lib/jvm/java-11-openjdk-amd64!/java.base/java/security/Principal.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/service/UserAccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="37" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/security/IAuthentication.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/companyAddresses.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/homeCompany.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.5.RELEASE/spring-security-config-5.1.5.RELEASE.jar!/org/springframework/security/config/annotation/web/configurers/AbstractAuthenticationFilterConfigurer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="61" column="19" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/homeUser.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="11" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/security/MySimpleUrlAuthenticationSuccessHandler.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/security/IAuthenticationFascade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/security/AuthenticationFascade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/model/UserAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/model/ItemIdNameAndAvailability.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/security/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="24" column="73" selection-start-line="24" selection-start-column="73" selection-end-line="24" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="25" column="75" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="75" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/repository/UserRoleRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="74" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addItem.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="10" column="36" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/service/UserRoleService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.1.7.RELEASE/spring-beans-5.1.7.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/merchant/controller/MerchantController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="22" column="116" lean-forward="true" selection-start-line="22" selection-start-column="116" selection-end-line="22" selection-end-column="116" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/MvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="37" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/model/UserRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
-          <folding>
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#470#471#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/security/CustomUserDetailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="42" column="45" selection-start-line="42" selection-start-column="37" selection-end-line="42" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/merchant/repository/MerchantRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="128">
+          <caret line="1208" selection-start-line="1208" selection-end-line="1208" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/OrderHereApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="120">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
           <folding>
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#516#517#0" expanded="true" />
+            <element signature="e#587#588#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/merchant/model/Merchant.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/repository/ItemIdName.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-137">
-          <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2024#2025#0" expanded="true" />
-            <element signature="e#2052#2053#0" expanded="true" />
-            <element signature="e#2098#2099#0" expanded="true" />
-            <element signature="e#2132#2133#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="135">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/merchant/service/MerchantService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/model/Address.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="34" column="43" lean-forward="true" selection-start-line="34" selection-start-column="43" selection-end-line="34" selection-end-column="43" />
+        <state relative-caret-position="765">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1052#1053#0" expanded="true" />
-            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1457#1458#0" expanded="true" />
+            <element signature="e#1486#1487#0" expanded="true" />
+            <element signature="e#1527#1528#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="86" column="35" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
+        <state relative-caret-position="715">
+          <caret line="87" column="41" selection-start-line="87" selection-start-column="41" selection-end-line="87" selection-end-column="41" />
+          <folding>
+            <element signature="e#1717#1718#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/model/UserAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/model/UserRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/company/repository/CompanyRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1668#1669#0" expanded="true" />
-            <element signature="e#1718#1719#0" expanded="true" />
-            <element signature="e#1758#1759#0" expanded="true" />
+            <element signature="e#0#104#1" expanded="true" />
+            <element signature="e#0#66#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/repository/UserAccountRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/repository/UserAddressRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="68" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/detailsCompany.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="37" column="11" selection-start-line="8" selection-start-column="2" selection-end-line="37" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/hello.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="41" selection-start-line="1" selection-start-column="15" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/MvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="54" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addressesCompany.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/repository/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#83#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/service/UserAddressService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" lean-forward="true" selection-start-column="6" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/company/repository/CompanyAddressRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/model/AvailableItemAndItemName.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/repository/UserRoleRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#69#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/service/UserRoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="17" column="46" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/security/CustomUserDetailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/repository/AvailableItemOnAddressRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#0#199#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/itemsCompany.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/service/UserAccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        <state relative-caret-position="236">
+          <caret line="77" column="58" lean-forward="true" selection-start-line="77" selection-start-column="58" selection-end-line="77" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/ItemAvailabilityAddressCompany.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addressInfoCompany.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="88" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/repository/ItemRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/model/AvailableItemOnCompanyAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="19" column="30" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#1251#1252#0" expanded="true" />
+            <element signature="e#1289#1290#0" expanded="true" />
+            <element signature="e#1348#1349#0" expanded="true" />
+            <element signature="e#1402#1403#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/service/AvailableItemOnAddressService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="34" column="82" selection-start-line="34" selection-start-column="82" selection-end-line="34" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/service/ItemService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/company/controller/CompanyAddressController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="50" column="60" selection-start-line="50" selection-start-column="60" selection-end-line="50" selection-end-column="60" />
+        <state relative-caret-position="195">
+          <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/company/controller/CompanyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/company/service/CompanyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-end-line="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -794,101 +974,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/controller/ItemController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="35" column="32" selection-start-line="35" selection-start-column="32" selection-end-line="35" selection-end-column="32" />
+        <state relative-caret-position="240">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/company/model/CompanyAddress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/homeMerchant.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/company/service/CompanyAddressService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/repository/ItemRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="120">
+          <caret line="45" column="16" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/merchantdetails.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="75" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="3" selection-end-column="75" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/model/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-435">
-          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1750#1751#0" expanded="true" />
-            <element signature="e#1804#1805#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/addItem.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/itemMerchant.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/signup.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="17" column="61" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="195">
+          <caret line="48" column="17" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/user/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/company/model/Company.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        <state relative-caret-position="-405">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#929#930#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#1008#1009#0" expanded="true" />
+            <element signature="e#1050#1051#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/nitesh/orderhere/item/service/ItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="56" column="56" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
+          <folding>
+            <element signature="e#2817#2818#0" expanded="true" />
+            <element signature="e#2881#2882#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -896,78 +1036,9 @@
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Detection</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>11</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
+          <last-edited>11 (3)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

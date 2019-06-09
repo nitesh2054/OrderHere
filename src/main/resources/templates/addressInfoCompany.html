@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Company Address Info</title>
+</head>
+<body>
+<h1>Enter Address Detail Of Company!!</h1>
+    <form th:action="@{/company/address}" th:object="${companyAddressObject}" method="post">
+        <div><label>Country: <input type="text" name="country" /></label></div>
+        <div><label>State: <input type="text" name="state" /></label></div>
+        <div><label>District: <input type="text" name="district" /></label></div>
+        <div><label>Municipality: <input type="text" name="municipality" /></label></div>
+        <div><label>City: <input type="text" name="city" /></label></div>
+        <div><input type="submit" value="Submit"/></div>
+    </form>
+</body>
+</html>

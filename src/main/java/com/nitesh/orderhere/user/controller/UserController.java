@@ -25,7 +25,11 @@ public class UserController {
 
     @PostMapping("/saveUser")
     public ModelAndView saveUser(@RequestParam("name") String name,
-                                 @RequestParam("address") String address,
+                                 @RequestParam("country") String country,
+                                 @RequestParam("state") String state,
+                                 @RequestParam("district") String district,
+                                 @RequestParam("municipality") String municipality,
+                                 @RequestParam("city") String city,
                                  @RequestParam("phoneNo") String phoneNo,
                                  @RequestParam("email") String email,
                                  @RequestParam("username") String username,
@@ -33,7 +37,8 @@ public class UserController {
                                  @RequestParam(value = "userMerchant", required = false) String isMerchant,
                                  @RequestParam("role") String role, Model model)  {
 
-        User user=userService.saveUser(name, address, phoneNo, email, username, password, role);
+        User user=userService.saveUser(name, country, state, district, municipality,city,
+                phoneNo, email, username, password, role);
 
         if(null==isMerchant){
             return new ModelAndView("redirect:/login");
@@ -41,7 +46,7 @@ public class UserController {
 
         if(isMerchant.equals("merchant")){
             model.addAttribute("user",user);
-            return new ModelAndView("redirect:/signup/merchant");
+            return new ModelAndView("redirect:/signup/company");
 
         }
 

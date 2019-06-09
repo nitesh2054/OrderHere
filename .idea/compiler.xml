@@ -6,16 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="OrderHere" />
+        <module name="orderhere" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="OrderHere" target="11" />
-    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="OrderHere" options="-parameters" />
+      <module name="orderhere" options="-parameters" />
     </option>
   </component>
 </project>

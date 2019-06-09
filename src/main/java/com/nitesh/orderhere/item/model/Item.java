@@ -1,10 +1,8 @@
 package com.nitesh.orderhere.item.model;
 
-import com.nitesh.orderhere.merchant.model.Merchant;
+import com.nitesh.orderhere.company.model.Company;
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
-import org.springframework.data.annotation.CreatedDate;
-import org.springframework.data.annotation.LastModifiedDate;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -15,6 +13,7 @@ public class Item {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name="ItemId")
     private int itemId;
 
     @Column(name = "ItemName")
@@ -46,8 +45,8 @@ public class Item {
     private Date updatedDate;
 
     @ManyToOne
-    @JoinColumn(name = "MerchantId")
-    private Merchant merchant;
+    @JoinColumn(name = "CompanyId")
+    private Company company;
 
     public int getItemId() {
         return itemId;
@@ -121,11 +120,12 @@ public class Item {
         this.updatedDate = updatedDate;
     }
 
-    public Merchant getMerchant() {
-        return merchant;
+    public Company getCompany() {
+        return company;
     }
 
-    public void setMerchant(Merchant merchant) {
-        this.merchant = merchant;
+    public void setCompany(Company company) {
+        this.company = company;
     }
+
 }

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en"  xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Company Addresses</title>
+</head>
+<body>
+    <h1>All Addresses of Company</h1>
+    <h3><a th:href="@{/company/home}">Home</a>&nbsp &nbsp
+        <a th:href="@{/company/addressinfo}">Add Address</a>&nbsp &nbsp</h3>
+
+    <table border="1">
+        <thead>
+        <th>S.N.</th>
+        <th>Country</th>
+        <th>State Num.</th>
+        <th>District</th>
+        <th>Municipality</th>
+        <th>City</th>
+        <th>Item Availability</th>
+        </thead>
+
+        <tbody>
+            <tr th:if="${addresses.isEmpty()}">
+                <td colspan="8"> No addresses available</td>
+            </tr>
+            <tr th:each="address, iter: ${addresses}">
+                <td><span th:text="${iter.count}"></span></td>
+                <td><span th:text="${address.country}">Country</span></td>
+                <td><span th:text="${address.state}">State Num.</span></td>
+                <td><span th:text="${address.district}">District</span></td>
+                <td><span th:text="${address.municipality}">Municipality</span></td>
+                <td><span th:text="${address.city}">City</span></td>
+                <td><a th:href="@{/company/items/address/{id}(id=${address.companyAddressId})}">See Here</a></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

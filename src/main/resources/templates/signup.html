@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml"
       xmlns:th="http://www.thymeleaf.org"
-        >
+>
 <head>
     <meta charset="UTF-8">
     <title>Sign Up!</title>
 </head>
 <body>
-    <form th:action="@{/saveUser}"  method="post" >
-        <div><label>Full Name: <input type="text" name="name" /></label></div>
-        <div><label>Address: <input type="text" name="address" /></label></div>
-        <div><label>Phone No: <input type="text" name="phoneNo" /></label></div>
-        <div><label>Email: <input type="text" name="email" /></label></div>
-        <div><label>UserName: <input type="text" name="username" /></label></div>
-        <div><label>Password: <input type="password" name="password" /></label></div>
-        <input type="hidden" name="role" value="user_simple"/>
-        <div><label><input type="checkbox" name="userMerchant" value="merchant"> Are You a Merchant?</label></div>
-        <div><input type="submit" value="SIGN UP"></div>
-    </form>
+<form th:action="@{/saveUser}"  method="post" >
+    <div><label>Full Name: <input type="text" name="name" /></label></div>
+    <div><label>Country: <input type="text" name="country" /></label></div>
+    <div><label>State: <input type="text" name="state" /></label></div>
+    <div><label>District: <input type="text" name="district" /></label></div>
+    <div><label>Municipality: <input type="text" name="municipality" /></label></div>
+    <div><label>City: <input type="text" name="city" /></label></div>
+    <div><label>Phone No: <input type="text" name="phoneNo" /></label></div>
+    <div><label>Email: <input type="text" name="email" /></label></div>
+    <div><label>UserName: <input type="text" name="username" /></label></div>
+    <div><label>Password: <input type="password" name="password" /></label></div>
+    <input type="hidden" name="role" value="user_simple"/>
+    <div><label><input type="checkbox" name="userMerchant" value="merchant"> Are You a Merchant?</label></div>
+    <div><input type="submit" value="SIGN UP"></div>
+</form>
 </body>
 </html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Merchant Details</title>
+</head>
+<body>
+
+    <h1>Enter Your Detail About Your Company!!</h1>
+
+    <form th:action="@{/saveCompany}" th:object="${companyObject}" method="post">
+        <div><label>Company Name: <input type="text" th:name="companyName"></label></div>
+        <div><label>Country: <input type="text" name="country" /></label></div>
+        <div><label>State: <input type="text" name="state" /></label></div>
+        <div><label>District: <input type="text" name="district" /></label></div>
+        <div><label>Municipality: <input type="text" name="municipality" /></label></div>
+        <div><label>City: <input type="text" name="city" /></label></div>
+        <div><label>Category: <select th:name="category">
+            <option value="stationary">Stationary</option>
+            <option value="music">Music</option>
+            <option value="mechanical">Mechanical</option>
+            <option value="vegetable">Vegetable</option>
+            <option value="cloth">Cloth</option>
+            <option value="mix">Mix</option>
+            <option value="electronics">Electronics</option>
+            <option value="mobile">Mobile</option>
+            <option value="dairy">Dairy</option>
+            <option value="computer">Computer</option>
+            <option value="food">Food</option>
+            <option value="other">Other</option>
+        </select></label></div>
+        <div><label>Details: <input type="text" th:name="details"></label></div>
+        <div><label>Company Type:
+            <input type="radio" th:name="companyType" value="WholeSeller">WholeSeller<nbsp /><nbsp />
+            <input type="radio" th:name="companyType" value="Retailer">Retailer
+        </label></div>
+        <div><input type="submit" value="Submit"/></div>
+    </form>
+</body>
+</html>

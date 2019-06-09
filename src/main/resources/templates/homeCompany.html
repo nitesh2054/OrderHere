@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="https://www.thymeleaf.org"
+      xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+    <div> <h1>Welcome [[${#httpServletRequest.remoteUser}]]!!</h1></div>
+    <h3>
+        <a th:href="@{/company/items}">All Your Items</a>&nbsp &nbsp
+        <a th:href="@{/company/addresses}">Company Addresses</a>
+    </h3>
+
+<form th:action="@{/logout}" method="post">
+        <input type="Submit" value="Sign Out"/>
+    </form>
+
+</body>
+</html>

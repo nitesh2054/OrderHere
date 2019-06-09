@@ -24,30 +24,25 @@ public class CustomUserDetailService implements UserDetailsService {
     private UserRoleService userRoleService;
 
     @Autowired
-    private UserService userService;
-
-    @Autowired
     private UserAccountService userAccountService;
 
     @Override
-    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+    public UserDetails loadUserByUsername(String userName) throws UsernameNotFoundException {
 
-        UserAccount userAccount = this.userAccountService.findByUsername(username);
+        UserAccount userAccount = this.userAccountService.findByUsername(userName);
 
         if (userAccount==null){
-            throw new UsernameNotFoundException("User with username"+username+" not found");
+            throw new UsernameNotFoundException("User with username"+userName+" not found");
         }
 
         List<GrantedAuthority> authorities = new ArrayList<>();
 
-        User user = this.userService.findById(userAccount.getUserId());
-
-        List<UserRole> userRoles=  this.userRoleService.findUserRoleByUser(user);
+        List<UserRole> userRoles=this.userRoleService.findByUserId(userAccount.getUserId());
 
         for (UserRole userRole: userRoles) {
             authorities.add(new SimpleGrantedAuthority(userRole.getUserRole()));
         }
 
-        return new org.springframework.security.core.userdetails.User(username, userAccount.getPassword(), authorities);
+        return new org.springframework.security.core.userdetails.User(userName, userAccount.getPassword(), authorities);
     }
 }

@@ -14,8 +14,8 @@ public class UserRoleService {
     @Autowired
     private UserRoleRepository userRoleRepository;
 
-    public List<UserRole> findUserRoleByUser(User user){
-        return this.userRoleRepository.findByUser(user);
+    public List<UserRole> findByUserId(int userId){
+        return this.userRoleRepository.findByUserId(userId);
     }
 
 
